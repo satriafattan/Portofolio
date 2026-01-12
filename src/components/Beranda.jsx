@@ -7,7 +7,7 @@ const Beranda = () => {
         </p>
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
           Saya{" "}
-          <span className="text-transparent bg-clip-text bg-linear-to-r from-gray-200 to-gray-500">
+          <span className="bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
             Satria Fattan
           </span>
         </h1>

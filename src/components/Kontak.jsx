@@ -120,7 +120,7 @@ const Kontak = () => {
         {/* Footer */}
         <div className="mt-20 pt-8 border-t border-gray-800 text-center">
           <p className="text-gray-500 text-sm">
-            © 2026 Portfolio. Dibuat dengan ❤️ menggunakan React & Tailwind CSS
+            © 2026 Satria Fattan 
           </p>
         </div>
       </div>
