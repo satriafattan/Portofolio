@@ -4,7 +4,7 @@ const Project = () => {
     {
       id: 1,
       title: 'Pengembangan Web Pemesanan dan Invetory darah',
-      description: 'Final Project Sistem Informasi Manajemen Inventori Darah dan Pemesanan Darah pada Palang Merah Indonesia',
+      description: 'Final Project Sistem Informasi Manajemen Inventori Darah dan Pemesanan Darah pada Palang Merah Indonesia Lampung',
       image: 'src/assets/Projek 1.png',
       technologies: ['Laravel', 'Tailwind CSS', 'blade', 'PHP'],
       github: 'https://github.com/satriafattan/PMI',
