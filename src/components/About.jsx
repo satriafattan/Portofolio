@@ -28,7 +28,7 @@ const About = () => {
           <div className="flex justify-center">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-gray-700">
               <img 
-                src="/public/images/PP.jpeg" 
+                src="/images/PP.jpeg" 
                 alt="Foto Satria Fattan" 
                 className="w-full h-full object-cover" 
               />
