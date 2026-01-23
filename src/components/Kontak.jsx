@@ -40,11 +40,11 @@ const Kontak = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-white">Hubungi Saya</h2>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="max-w-2xl mx-auto">
           {/* Contact Info */}
           <div>
-            <h3 className="text-xl font-semibold text-white mb-6">Yuk, Ngobrol!</h3>
-            <p className="text-gray-400 mb-8 leading-relaxed">
+            <h3 className="text-xl font-semibold text-white mb-6 text-center">Yuk, Ngobrol!</h3>
+            <p className="text-gray-400 mb-8 leading-relaxed text-center">
               Punya project menarik atau sekedar mau ngobrol soal teknologi? 
               Hit me up! Saya selalu terbuka untuk diskusi ide-ide baru dan kolaborasi seru.
             </p>
@@ -68,52 +68,6 @@ const Kontak = () => {
                 </a>
               ))}
             </div>
-          </div>
-
-          {/* Contact Form */}
-          <div className="bg-gray-900 rounded-xl p-8 border border-gray-800">
-            <h3 className="text-xl font-semibold text-white mb-6">Kirim Pesan</h3>
-            <form className="space-y-6">
-              <div>
-                <label htmlFor="name" className="block text-sm text-gray-400 mb-2">
-                  Nama
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-gray-500 transition-colors"
-                  placeholder="Nama Anda"
-                />
-              </div>
-              <div>
-                <label htmlFor="email" className="block text-sm text-gray-400 mb-2">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-gray-500 transition-colors"
-                  placeholder="email@example.com"
-                />
-              </div>
-              <div>
-                <label htmlFor="message" className="block text-sm text-gray-400 mb-2">
-                  Pesan
-                </label>
-                <textarea
-                  id="message"
-                  rows="4"
-                  className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-gray-500 transition-colors resize-none"
-                  placeholder="Tulis pesan Anda..."
-                ></textarea>
-              </div>
-              <button
-                type="submit"
-                className="w-full px-6 py-3 bg-white text-black font-medium rounded-lg hover:bg-gray-200 transition-colors duration-300"
-              >
-                Kirim Pesan
-              </button>
-            </form>
           </div>
         </div>
 

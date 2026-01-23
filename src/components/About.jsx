@@ -13,6 +13,10 @@ const About = () => {
     'Git',
     'GitHub',
     'Figma',
+    'WordPress',
+    'MySQL',
+    'Quality Assurance',
+    'System Analyst',
   ];
 
   return (
