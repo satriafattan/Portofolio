@@ -27,8 +27,8 @@ const Kontak = () => {
         </svg>
       ),
       label: 'LinkedIn',
-      value: 'linkedin.com/in/username',
-      href: 'https://linkedin.com/in/username',
+      value: 'linkedin.com/in/satriafattan',
+      href: 'https://www.linkedin.com/in/satria-fattan-granada-19bb62255/',
     },
   ];
 
